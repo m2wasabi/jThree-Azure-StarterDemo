@@ -1,0 +1,17 @@
+<goml>
+	<head>
+		<rdr frame="body" camera="camera:first" param="antialias: true; clearColor: #fff;"/>
+	</head>
+	<body>
+		<scene>
+		    
+ <mmd id="obj-miku" model="/model/miku/index.pmx" motion="/motion/girls.vmd" style=""></mmd>		 
+<!-- <mmd id="obj-miku" model="/model/haku/index.pmx" motion="/motion/girls.vmd" style=""></mmd>		 -->
+<!-- <mmd id="obj-miku" model="/model/neru/index.pmx" motion="/motion/girls.vmd" style=""></mmd>		 -->
+<obj id="obj-field" model="/stage/gekido/index.x" style="scale: 10; position: 0 -46.5 0; rotateY: 1.57;"></obj>
+			<camera style="cameraFar: 100000; position: 6 13 20; lookAtY: 7;" />
+			<light type="Amb" style="lightColor: #222;" />
+			<light type="Dir" style="position: 1 3 5;" />
+		</scene>
+	</body>
+</goml>
